@@ -3,10 +3,6 @@ Assessment of depression and anxiety disorders in mexican medical students
 
 # Mental health in young population 
 
-Incidence and prevalence \
+Incidence and prevalence data
 
-Anxiety \
-
-Depression \ 
-
-Prevention systems \
+Prevention systems 
