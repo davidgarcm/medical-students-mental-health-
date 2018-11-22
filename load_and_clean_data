@@ -1,0 +1,18 @@
+# Assesment of depression, anxiety and BMI of 700 mexican medical students. 
+
+# Load raw data 
+
+import pandas as pd 
+df = pd.read_csv("mexican_medical_students_mental_health_data.csv")
+
+# Discard subjects with incomplete data
+df.dropna(axis= 0, inplace = True)
+
+print(df.dtypes)
+
+# Change variable's type
+#df['Fecha_nacimiento'] = pd.to_datetime(sample_data['Fecha_nacimiento'])
+
+# Adding bmi, phq_score, gad_score, and eppworth_score variables
+df["bmi"] = (df.weight / (df.height ** 2)) 
+df["phq_score"] = sum([])
